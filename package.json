@@ -1,0 +1,29 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "Api de registro e inicio de sesion",
+  "main": "App.js",
+  "scripts": {
+    "start": "nodemon App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Krlos1223/Rest_API.git"
+  },
+  "keywords": [
+    "Login",
+    "registro"
+  ],
+  "author": "Carlos Andres Piedrahita Sampedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Krlos1223/Rest_API/issues"
+  },
+  "homepage": "https://github.com/Krlos1223/Rest_API#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "nodemon": "^3.1.4"
+  }
+}
